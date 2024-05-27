@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/fallback_locale_service.dart';
-import 'package:flutter_translate/src/services/missing_localization_key_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/missing_localization_key_service.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -17,19 +17,25 @@ void main() {
     setUp(() {
       mockFallbackLocaleService = MockFallbackLocaleService();
       mockOptions = MockFlutterTranslateOptions();
-      missingLocalizationKeyService = MissingLocalizationKeyService(mockFallbackLocaleService, mockOptions);
+      missingLocalizationKeyService =
+          MissingLocalizationKeyService(mockFallbackLocaleService, mockOptions);
     });
 
-    test('initialize should load fallback data when strategy is fallback', () async {
-      when(mockOptions.missingKeyStrategy).thenReturn(MissingKeyStrategy.fallback);
-      when(mockFallbackLocaleService.loadFallbackLocaleData()).thenAnswer((_) async => {});
+    test('initialize should load fallback data when strategy is fallback',
+        () async {
+      when(mockOptions.missingKeyStrategy)
+          .thenReturn(MissingKeyStrategy.fallback);
+      when(mockFallbackLocaleService.loadFallbackLocaleData())
+          .thenAnswer((_) async => {});
 
       await missingLocalizationKeyService.initialize();
 
       verify(mockFallbackLocaleService.loadFallbackLocaleData()).called(1);
     });
 
-    test('initialize should not load fallback data when strategy is not fallback', () async {
+    test(
+        'initialize should not load fallback data when strategy is not fallback',
+        () async {
       when(mockOptions.missingKeyStrategy).thenReturn(MissingKeyStrategy.key);
 
       await missingLocalizationKeyService.initialize();

@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/loaders/base/localization_loader.dart';
-import 'package:flutter_translate/src/services/localization_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/base/localization_loader.dart';
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -26,7 +26,8 @@ void main() {
       expect(localizationService.containsLocale(locale), isFalse);
     });
 
-    test('loadLocaleData should invoke loader and add data to localizations', () async {
+    test('loadLocaleData should invoke loader and add data to localizations',
+        () async {
       final locale = Locale('en', 'US');
       final Map<String, dynamic> localeData = {'hello': 'Hello'};
 

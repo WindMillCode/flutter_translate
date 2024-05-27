@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/fallback_locale_service.dart';
-import 'package:flutter_translate/src/services/locale_persistence_service.dart';
-import 'package:flutter_translate/src/services/localization_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/locale_persistence_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';
 
 class InitialLocaleService {
   FlutterTranslateOptions options;

@@ -8,10 +8,11 @@ import 'dart:ui' as _i2;
 
 import 'package:flutter/foundation.dart' as _i4;
 import 'package:flutter/widgets.dart' as _i3;
-import 'package:flutter_translate/flutter_translate.dart' as _i6;
-import 'package:flutter_translate/src/delegates/flutter_translate_delegate.dart'
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart' as _i6;
+import 'package:windmillcode_flutter_translate/src/delegates/flutter_translate_delegate.dart'
     as _i5;
-import 'package:flutter_translate/src/widgets/localized_app.dart' as _i7;
+import 'package:windmillcode_flutter_translate/src/widgets/localized_app.dart'
+    as _i7;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i8;
 

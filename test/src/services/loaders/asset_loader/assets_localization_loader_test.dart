@@ -1,8 +1,8 @@
 import 'dart:ui';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/loaders/asset_loader/assets_localization_loader.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/asset_loader/assets_localization_loader.dart';
 import 'dart:convert';
 
 void main() {
@@ -10,7 +10,8 @@ void main() {
 
   group('AssetsLocalizationLoader Tests', () {
     late AssetsLocalizationLoader loader;
-    const String encodedManifest = '{"assets/i18n/en.json": [], "assets/i18n/es.json": []}';
+    const String encodedManifest =
+        '{"assets/i18n/en.json": [], "assets/i18n/es.json": []}';
     const Map<String, dynamic> manifestContent = {
       'assets/i18n/en.json': ['en.json'],
       'assets/i18n/es.json': ['es.json'],
@@ -30,7 +31,8 @@ void main() {
         final String key = utf8.decode(message!.buffer.asUint8List());
 
         if (key == 'AssetManifest.json') {
-          return ByteData.view(utf8.encode(json.encode(manifestContent)).buffer);
+          return ByteData.view(
+              utf8.encode(json.encode(manifestContent)).buffer);
         } else if (key == filePath) {
           return ByteData.view(utf8.encode(fileContent).buffer);
         }
@@ -45,7 +47,8 @@ void main() {
     });
 
     tearDown(() {
-      TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMessageHandler('flutter/assets', null);
+      TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+          .setMockMessageHandler('flutter/assets', null);
     });
   });
 }

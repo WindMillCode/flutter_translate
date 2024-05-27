@@ -3,17 +3,21 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/delegates/flutter_translate_delegate.dart';
-import 'package:flutter_translate/src/widgets/localized_app.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/delegates/flutter_translate_delegate.dart';
+import 'package:windmillcode_flutter_translate/src/widgets/localized_app.dart';
 
 void main() {
   const String localeEn = 'en';
   const Map<String, dynamic> enLocalizations = {
     "apples": {"zero": "no apples", "one": "one apple", "other": "some apples"}
   };
-    const Map<String, dynamic> esLocalizations = {
-    "apples": {"zero": "nunca manzanas", "one": "una  manzana", "other": "otros mazanas"}
+  const Map<String, dynamic> esLocalizations = {
+    "apples": {
+      "zero": "nunca manzanas",
+      "one": "una  manzana",
+      "other": "otros mazanas"
+    }
   };
 
   setUpAll(() async {
@@ -82,10 +86,6 @@ void main() {
 
       FlutterTranslate.instance.changeLocale('es');
       await tester.pump();
-
-
     });
   });
-
-
 }

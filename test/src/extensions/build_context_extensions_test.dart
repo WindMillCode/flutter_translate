@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/extensions/build_context_extensions.dart';
-import 'package:flutter_translate/src/widgets/localized_app.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/extensions/build_context_extensions.dart';
+import 'package:windmillcode_flutter_translate/src/widgets/localized_app.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -21,7 +21,9 @@ void main() {
       // Implementation of test would go here
     });
 
-    test('supportedLocales should return supportedLocales from FlutterTranslate', () {
+    test(
+        'supportedLocales should return supportedLocales from FlutterTranslate',
+        () {
       // Implementation of test would go here
     });
 

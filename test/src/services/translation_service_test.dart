@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/constants/constants.dart';
-import 'package:flutter_translate/src/contexts/localization_context.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
-import 'package:flutter_translate/src/services/translation_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/constants/constants.dart';
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/services/translation_service.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 

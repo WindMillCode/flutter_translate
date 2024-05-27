@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/delegates/flutter_translate_delegate.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/delegates/flutter_translate_delegate.dart';
 
 class LocalizedApp extends StatefulWidget {
   final Widget child;

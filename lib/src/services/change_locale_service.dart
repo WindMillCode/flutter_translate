@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/src/contexts/localization_context.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
-import 'package:flutter_translate/src/services/fallback_locale_service.dart';
-import 'package:flutter_translate/src/services/localization_service.dart';
-import 'package:flutter_translate/src/services/supported_locale_service.dart';
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/supported_locale_service.dart';
 import 'package:intl/intl.dart';
 
 class ChangeLocaleService {

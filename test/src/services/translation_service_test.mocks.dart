@@ -5,9 +5,10 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:ui' as _i3;
 
-import 'package:flutter_translate/src/contexts/localization_context.dart'
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart'
     as _i4;
-import 'package:flutter_translate/src/models/locale_data.dart' as _i2;
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart'
+    as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 
 // ignore_for_file: type=lint

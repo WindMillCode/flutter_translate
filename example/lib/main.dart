@@ -1,6 +1,6 @@
 import 'package:example/home/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_translate/flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 
 void main() async {
   await FlutterTranslate.initialize(FlutterTranslateOptions(

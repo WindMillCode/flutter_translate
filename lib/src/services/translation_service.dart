@@ -1,5 +1,5 @@
-import 'package:flutter_translate/src/constants/constants.dart';
-import 'package:flutter_translate/src/contexts/localization_context.dart';
+import 'package:windmillcode_flutter_translate/src/constants/constants.dart';
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart';
 import 'package:intl/intl.dart';
 
 class TranslationService {

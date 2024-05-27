@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/src/extensions/string_extensions.dart';
+import 'package:windmillcode_flutter_translate/src/extensions/string_extensions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Service for persisting and retrieving user's preferred locale settings.

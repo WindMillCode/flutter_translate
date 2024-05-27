@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
 import 'package:collection/collection.dart';
 
 class SupportedLocaleService {

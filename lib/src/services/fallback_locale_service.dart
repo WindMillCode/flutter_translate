@@ -1,6 +1,6 @@
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
-import 'package:flutter_translate/src/services/localization_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';
 
 class FallbackLocaleService {
   final LocalizationService _localizationService;

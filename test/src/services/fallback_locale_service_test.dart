@@ -1,10 +1,10 @@
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
-import 'package:flutter_translate/src/services/fallback_locale_service.dart';
-import 'package:flutter_translate/src/services/localization_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';
 import 'package:mockito/mockito.dart';
 import 'package:mockito/annotations.dart';
 
@@ -22,12 +22,15 @@ void main() {
       mockLocalizationService = MockLocalizationService();
       mockOptions = MockFlutterTranslateOptions();
       when(mockOptions.fallbackLocale).thenReturn(const Locale('en', 'US'));
-      fallbackLocaleService = FallbackLocaleService(mockLocalizationService, mockOptions);
+      fallbackLocaleService =
+          FallbackLocaleService(mockLocalizationService, mockOptions);
     });
 
-    test('getFallbackLocaleData should return LocaleData with expected data', () async {
+    test('getFallbackLocaleData should return LocaleData with expected data',
+        () async {
       final Map<String, dynamic> mockData = {'hello': 'Hello'};
-      when(mockLocalizationService.loadLocaleData(any)).thenAnswer((_) async => mockData);
+      when(mockLocalizationService.loadLocaleData(any))
+          .thenAnswer((_) async => mockData);
 
       final localeData = await fallbackLocaleService.getFallbackLocaleData();
       expect(localeData, isA<LocaleData>());
@@ -43,9 +46,12 @@ void main() {
     //   expect(data, mockData);
     // });
 
-    test('loadFallbackLocaleData should throw an exception if data is null', () {
-      when(mockLocalizationService.loadLocaleData(any)).thenAnswer((_) async => null);
-      expect(fallbackLocaleService.loadFallbackLocaleData(), throwsA(isA<Exception>()));
+    test('loadFallbackLocaleData should throw an exception if data is null',
+        () {
+      when(mockLocalizationService.loadLocaleData(any))
+          .thenAnswer((_) async => null);
+      expect(fallbackLocaleService.loadFallbackLocaleData(),
+          throwsA(isA<Exception>()));
     });
   });
 }

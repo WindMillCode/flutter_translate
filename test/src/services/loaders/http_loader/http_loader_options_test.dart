@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/src/enums/localization_loader_type.dart';
-import 'package:flutter_translate/src/services/loaders/http_loader/http_loader_options.dart';
+import 'package:windmillcode_flutter_translate/src/enums/localization_loader_type.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_loader_options.dart';
 
 void main() {
   group('HttpLoaderOptions', () {
@@ -12,7 +12,8 @@ void main() {
     });
 
     test('should have correct loader type', () {
-      final options = HttpLoaderOptions(url: 'https://example.com/translations');
+      final options =
+          HttpLoaderOptions(url: 'https://example.com/translations');
 
       expect(options.type, LocalizationLoaderType.http);
     });

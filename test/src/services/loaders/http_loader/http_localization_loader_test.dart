@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/loaders/http_loader/http_localization_loader.dart';
-import 'package:flutter_translate/src/services/loaders/http_loader/http_loader_options.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_localization_loader.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_loader_options.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -16,7 +16,8 @@ void main() {
 
     setUp(() {
       mockOptions = MockFlutterTranslateOptions();
-      when(mockOptions.loaderOptions).thenReturn(HttpLoaderOptions(url: 'https://example.com/translations'));
+      when(mockOptions.loaderOptions).thenReturn(
+          HttpLoaderOptions(url: 'https://example.com/translations'));
       loader = HttpLocalizationLoader(mockOptions);
     });
 

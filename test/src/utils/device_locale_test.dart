@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/src/utils/device_locale.dart';
+import 'package:windmillcode_flutter_translate/src/utils/device_locale.dart';
 
 void main() {
   group('DeviceLocale', () {

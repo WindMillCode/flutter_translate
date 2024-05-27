@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/src/constants/constants.dart';
+import 'package:windmillcode_flutter_translate/src/constants/constants.dart';
 
 class LocaleData {
   Locale locale = const Locale(Constants.undefinedLocale);

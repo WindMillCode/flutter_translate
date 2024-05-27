@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/src/constants/constants.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/constants/constants.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
 
 void main() {
   group('LocaleData', () {
@@ -10,7 +10,8 @@ void main() {
       final localizations = {'hello': 'Hello'};
       final fallbackLocalizations = {'hello': 'Hello, fallback'};
 
-      final localeData = LocaleData(locale, localizations, fallbackLocalizations: fallbackLocalizations);
+      final localeData = LocaleData(locale, localizations,
+          fallbackLocalizations: fallbackLocalizations);
 
       expect(localeData.locale, equals(locale));
       expect(localeData.localizations, equals(localizations));

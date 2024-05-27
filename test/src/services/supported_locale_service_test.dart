@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/services/supported_locale_service.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/services/supported_locale_service.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -30,7 +30,9 @@ void main() {
       expect(result, equals(locale));
     });
 
-    test('getSupportedLocale returns locale with matching language code if exact match not found', () {
+    test(
+        'getSupportedLocale returns locale with matching language code if exact match not found',
+        () {
       final locale = Locale('en', 'GB');
       final supportedLocales = [Locale('en', 'US'), Locale('es', 'ES')];
       final fallbackLocale = Locale('es', 'ES');

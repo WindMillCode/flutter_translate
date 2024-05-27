@@ -1,4 +1,4 @@
-import 'package:flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
 
 class LocalizationContext {
   LocaleData _current;

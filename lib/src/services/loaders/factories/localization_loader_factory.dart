@@ -1,8 +1,8 @@
-import 'package:flutter_translate/flutter_translate.dart';
-import 'package:flutter_translate/src/enums/localization_loader_type.dart';
-import 'package:flutter_translate/src/services/loaders/asset_loader/assets_localization_loader.dart';
-import 'package:flutter_translate/src/services/loaders/base/localization_loader.dart';
-import 'package:flutter_translate/src/services/loaders/http_loader/http_localization_loader.dart';
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/src/enums/localization_loader_type.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/asset_loader/assets_localization_loader.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/base/localization_loader.dart';
+import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_localization_loader.dart';
 
 /// Factory class for creating instances of `LocalizationLoader`.
 ///

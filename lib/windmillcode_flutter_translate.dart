@@ -1,4 +1,4 @@
-library flutter_translate;
+library windmillcode_flutter_translate;
 
 export 'src/extensions//build_context_extensions.dart';
 export 'src/options/flutter_translate_options.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_translate/src/models/locale_data.dart';
-import 'package:flutter_translate/src/contexts/localization_context.dart';
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart';
 import 'package:flutter/widgets.dart';
 
 void main() {

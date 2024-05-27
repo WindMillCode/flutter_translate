@@ -6,17 +6,18 @@
 import 'dart:async' as _i7;
 import 'dart:ui' as _i5;
 
-import 'package:flutter_translate/flutter_translate.dart' as _i3;
-import 'package:flutter_translate/src/contexts/localization_context.dart'
+import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart' as _i3;
+import 'package:windmillcode_flutter_translate/src/contexts/localization_context.dart'
     as _i10;
-import 'package:flutter_translate/src/models/locale_data.dart' as _i4;
-import 'package:flutter_translate/src/services/fallback_locale_service.dart'
+import 'package:windmillcode_flutter_translate/src/models/locale_data.dart'
+    as _i4;
+import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart'
     as _i8;
-import 'package:flutter_translate/src/services/loaders/base/localization_loader.dart'
+import 'package:windmillcode_flutter_translate/src/services/loaders/base/localization_loader.dart'
     as _i2;
-import 'package:flutter_translate/src/services/localization_service.dart'
+import 'package:windmillcode_flutter_translate/src/services/localization_service.dart'
     as _i6;
-import 'package:flutter_translate/src/services/supported_locale_service.dart'
+import 'package:windmillcode_flutter_translate/src/services/supported_locale_service.dart'
     as _i9;
 import 'package:mockito/mockito.dart' as _i1;
 
