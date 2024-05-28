@@ -2,7 +2,6 @@ name: windmillcode_flutter_translate
 description: Flutter Translate is a fully featured localization / internationalization (i18n) library for Flutter continauation of Jesway/flutter_translate library to be maintained.
 version: 5.0.4
 homepage: https://windmillcode.com
-publish_to: https://pub.dev
 repository: https://github.com/WindMillCode/flutter_translate
 topics:
   - localization
