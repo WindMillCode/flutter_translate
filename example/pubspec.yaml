@@ -1,5 +1,5 @@
 name: example
-description: Example project for the flutter_translate library
+description: Example project for the windmillcode_flutter_translate library
 publish_to: none
 version: 5.0.0-dev.1
 
@@ -11,13 +11,13 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  flutter_translate:
+  windmillcode_flutter_translate:
     path: ../
   cruiser: ^2.2.1
-  
-dev_dependencies: 
+
+dev_dependencies:
   flutter_lints: ^3.0.1
-  
+
 flutter:
   uses-material-design: true
   assets:

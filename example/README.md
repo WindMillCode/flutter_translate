@@ -1,3 +1,3 @@
 # example
 
-Example project for the flutter_translate library
+Example project for the windmillcode_flutter_translate library
