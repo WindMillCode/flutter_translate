@@ -5,7 +5,7 @@ main is production branch dev is development branch
 
 [<img src="https://github.com/Windmillcode/flutter_translate/raw/master/resources/images/flutter_translate.png" />](https://github.com/Windmillcode/flutter_translate/)
 
-[![pub package](https://img.shields.io/pub/v/flutter_translate.svg?color=important)](https://pub.dev/packages/windmillcode_flutter_translate)
+[![pub package](https://img.shields.io/pub/v/windmillcode_flutter_translate.svg?color=important)](https://pub.dev/packages/windmillcode_flutter_translate)
 <a href="https://github.com/Solido/awesome-flutter">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true" />
 </a>
