@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/models/locale_data.dart';
 import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
 import 'package:windmillcode_flutter_translate/src/services/localization_service.dart';

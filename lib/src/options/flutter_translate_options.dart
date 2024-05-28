@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/extensions/string_extensions.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/base/localization_loader_options.dart';
 

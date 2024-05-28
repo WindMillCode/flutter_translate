@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 
 void main() {
   const String localeEn = 'en';

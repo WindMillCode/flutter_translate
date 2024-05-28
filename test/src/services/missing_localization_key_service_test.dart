@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart';
 import 'package:windmillcode_flutter_translate/src/services/missing_localization_key_service.dart';
 import 'package:mockito/annotations.dart';

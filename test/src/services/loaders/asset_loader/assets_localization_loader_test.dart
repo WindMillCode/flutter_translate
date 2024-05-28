@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/services.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/asset_loader/assets_localization_loader.dart';
 import 'dart:convert';
 

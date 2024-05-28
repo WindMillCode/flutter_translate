@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_localization_loader.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/http_loader/http_loader_options.dart';
 import 'package:mockito/annotations.dart';

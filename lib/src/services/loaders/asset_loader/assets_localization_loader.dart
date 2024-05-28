@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/constants/constants.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/base/localization_loader.dart';
 import 'package:path/path.dart' as path;

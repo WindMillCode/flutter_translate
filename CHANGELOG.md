@@ -122,3 +122,14 @@
 ## [4.0.4]
 
 - Bump intl version to support latest Flutter version
+
+## [5.0.2]
+
+Complete with Changelog Test Cases (of the whole library!) and docs
+
+[UPDATE] Implemented a new method getValueAtKeyPath to retrieve values from nested structures in translation data. This method allows direct access to nested data using a key path string, enhancing data retrieval efficiency. For example, getValueAtKeyPath("menu.items.item1") will access the value of item1 within items in the menu map.
+
+[BUG] Addressed an issue in the translation retrieval logic where the previous method did not adequately handle nested structures. The updated approach ensures accurate retrieval of nested translations, improving the robustness of translation handling.
+
+[COMPLEX MERGE] Refined the algorithm for extracting plural forms from translation data, allowing for more efficient access to pluralized translation entries. This enhancement is particularly useful for languages with complex pluralization rules, ensuring accurate and efficient retrieval of the correct plural form. For instance, accessing different plural forms of a word is now more streamlined, like getValueAtKeyPath("messages.count", localizations) to fetch the appropriate plural form based on the count.
+

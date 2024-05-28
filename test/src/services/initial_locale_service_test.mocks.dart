@@ -6,7 +6,7 @@
 import 'dart:async' as _i8;
 import 'dart:ui' as _i5;
 
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart' as _i3;
+import 'package:windmillcode_flutter_translate/flutter_translate.dart' as _i3;
 import 'package:windmillcode_flutter_translate/src/models/locale_data.dart'
     as _i4;
 import 'package:windmillcode_flutter_translate/src/services/fallback_locale_service.dart'

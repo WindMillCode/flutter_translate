@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 
 /// Translate the selected key into the currently selected locale
 String translate(String key, {Map<String, dynamic>? args}) {

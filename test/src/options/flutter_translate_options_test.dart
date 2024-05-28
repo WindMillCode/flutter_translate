@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:windmillcode_flutter_translate/windmillcode_flutter_translate.dart';
+import 'package:windmillcode_flutter_translate/flutter_translate.dart';
 import 'package:windmillcode_flutter_translate/src/options/flutter_translate_options.dart';
 import 'package:windmillcode_flutter_translate/src/services/loaders/asset_loader/assets_loader_options.dart';
 
