@@ -123,7 +123,7 @@
 
 - Bump intl version to support latest Flutter version
 
-## [5.0.2]
+## [5.0.3]
 
 Complete with Changelog Test Cases (of the whole library!) and docs
 
